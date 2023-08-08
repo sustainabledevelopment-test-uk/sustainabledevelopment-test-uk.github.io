@@ -1,3 +1,8 @@
+<head>
+    <script src="https://kit.fontawesome.com/7ee11bdcfb.js" crossorigin="anonymous"></script>
+</head>
+
+<html>
 <!DOCTYPE html>
 <html lang="es" class="no-js">
     <head>
@@ -139,7 +144,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20230717123522">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20230808074423">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -165,6 +170,7 @@ layout-frontpage
 ">
 <!-- <div class="container"> -->
 
+<!-- custom header. Design specified in _sass/custom.scss -->
 <script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
@@ -269,25 +275,29 @@ data-event-label="high"
 <div id="top" tabindex=-1></div>
 
 
-<div id="main-content" class="container" role="main">
 
-    
-    <div class="site-intro">
-        <h1>17 objetivos para transformar nuestro mundo</h1>
-        <div class="lead-copy"><p>Los <a href="https://www.un.org/sustainabledevelopment/es">Objetivos de Desarrollo Sostenible (SDG)</a> son un llamamiento universal a la acción para terminar con la pobreza, proteger el planeta y mejorar las vidas y perspectivas de todos, en todas partes. Los 17 Objetivos fueron adoptados por todos los Estados Miembros de las Naciones Unidas en 2015, como parte de la <a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&amp;Lang=S">Agenda 2030 para el Desarrollo Sostenible</a>.</p>
+<div class ="main-image">
+    <a><img src="/assets/img/HEADER_DashKon_ohne Schrift_Neu.png"></a>
 </div>
-    </div>
+
+
+<div id="main-content" class="container" role="main">
+    
+        <div class="site-intro">
+            <h1 style="font-weight: 700;">17 objetivos para transformar nuestro mundo</h1>
+            <div class="lead-copy"><p> Los <a href="https://www.un.org/sustainabledevelopment/es">Objetivos de Desarrollo Sostenible (SDG)</a> son un llamamiento universal a la acción para terminar con la pobreza, proteger el planeta y mejorar las vidas y perspectivas de todos, en todas partes. Los 17 Objetivos fueron adoptados por todos los Estados Miembros de las Naciones Unidas en 2015, como parte de la <a href="https://www.un.org/ga/search/view_doc.asp?symbol=A/RES/70/1&Lang=S">Agenda 2030 para el Desarrollo Sostenible</a>.</p></div>
+        </div>
     
 
     
     <div class="frontpage-goals-grid">
 
         
-        <h2 class="frontpage-goals-grid-title">Datos de Australia para los Objetivos de Desarrollo Sostenible</h2>
+        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;">Datos de Australia para los Objetivos de Desarrollo Sostenible</h2>
         
 
         
-        <div class="frontpage-goals-grid-description"><p>Seleccione cada objetivo para los datos del indicador.</p>
+        <div class="frontpage-goals-grid-description"  style="font-size: 22px;"><p>Seleccione cada objetivo para los datos del indicador.</p>
 </div>
         
 
@@ -401,147 +411,73 @@ data-event-label="high"
     </div>
     
 
-    
-    <div class="frontpage-cards">
-    
-        
-
-        
-        <div class="row">
-        
-
-        <div class="col-sm-6 col-md-4">
-    <div class="card">
-    <div class="card-body">
-
-    
-    <h2 class="card-title"
-        
-        style="border-color: ;"
-        
-    >Descargar todos los datos (.zip)</h2>
-    
-  
-    
-  
-    
-      <div class="zip-download-container">
-    <a href="https://sustainabledevelopment-test-uk.github.io/sdg-data-test-prod/es/zip/all_indicators.zip"
-       class="btn btn-primary btn-download" aria-describedby="zip-download-info">
-        Descargar todos los datos (.zip)
-    </a>
-    <div id="zip-download-info">
-        Tamaño: 22 Bytes
-        
-            <br>
-            Datos actualizados por última vez - Jul 17, 2023
-        
-    </div>
 </div>
 
-    
-  
-    
 
+<!-- Handlungsfelder - title -->
+<div style="background-color:#efeeeb;">
+    <div class="container" style="margin-top: 3rem; padding-top: 3rem; padding-bottom: 1rem;">
+        <!-- <hr style="border: 1px solid black; margin-top: 5rem;"> -->
+        <h2 class="frontpage-goals-grid-title" style="font-size: 32px; font-weight: 700;"></h2>
+        <div class="frontpage-goals-grid-description"  style="font-size: 22px;"></div>
     </div>
-  
-  </div>
-  
-  </div>
-
-        
-
     
-        
-
-        
-
-        <div class="col-sm-6 col-md-4">
-    <div class="card">
-    <div class="card-body">
-
-    
-    <h2 class="card-title"
-        
-        style="border-color: ;"
-        
-    >Lorem ipsum</h2>
-    
-  
-    
-    <div class="card-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-cursus est sed dapibus.</p>
-</div>
-    
-  
-    
-  
-    
-    
-    
-    
-    <a class="btn btn-primary btn-download" href="https://example.com">
-      Read more
-    </a>
-    
-
-    </div>
-  
-  </div>
-  
-  </div>
-
-        
-
-    
-        
-
-        
-
-        <div class="col-sm-6 col-md-4">
-    <div class="card">
-    <div class="card-body">
-
-    
-    <h2 class="card-title"
-        
-        style="border-color: ;"
-        
-    >Nam vestibulum</h2>
-    
-  
-    
-    <div class="card-text"><p>Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
-</div>
-    
-  
-    
-  
-    
-    
-    
-    
-    <a class="btn btn-primary btn-download" href="https://example.com">
-      Read more
-    </a>
-    
-
-    </div>
-  
-  </div>
-  
-  </div>
-
-        
+    <!-- Handlungsfelder - expandable tabs -->
+    <div class="tab container" style="margin-top:1rem;">
+        <div class="row g-0 align-items-center justify-content-start">
+            <button class="tablinks active" id="tabbtn-1" onclick="openTab(event, 'frontpage-handlungsfelder-Wirtschaft')">
+                <i class="fa fa-gear" style="font-size:  calc(10px + 0.75vw);"></i>
+                <span class="tabs-text">Wirtschaft</span>
+            </button>
+            <button class="tablinks" id="tabbtn-2" onclick="openTab(event, 'frontpage-handlungsfelder-Umwelt')">
+                <i class='fas fa-solar-panel'style="font-size:  calc(10px + 0.75vw);"></i>
+                <span class="tabs-text">Umwelt</span>
+            </button>
+            <button class="tablinks" id="tabbtn-3" onclick="openTab(event, 'frontpage-handlungsfelder-Leben')">
+                <i class="fa fa-tree" style="font-size:  calc(10px + 0.75vw);"></i>
+                <span class="tabs-text">Leben</span>
+            </button>
+            <button class="tablinks" id="tabbtn-4" onclick="openTab(event, 'frontpage-handlungsfelder-Vielfalt')">
+                <i class="fa fa-globe" style="font-size:  calc(10px + 0.75vw);"></i>
+                <span class="tabs-text">Vielfalt</span>
+            </button>
+            <button class="tablinks" id="tabbtn-5" onclick="openTab(event, 'frontpage-handlungsfelder-Bildung')">            
+                <i class="fa fa-pencil" style="font-size:  calc(10px + 0.75vw);"></i>
+                <span class="tabs-text">Bildung</span>
+            </button>
         </div>
-        
-
-    
     </div>
+</div>
+
+
+
+
+<!-- cards (imported from separate file) -->
+
+<div class="container">
+    <div class="row g-0 frontpage-card">
+        <div class="col-sm-6 col-md-4">
+    <div class="card">
+    <div class="card-body">
+
+    
+  
+    
+  
+    
+  
     
 
+    </div>
+  
+  </div>
+  
+  </div>
+    </div>
 </div>
+
+
+<!-- footer incl. binder logos -->
 <footer role="contentinfo">
     <div class="container">
         <div class="row">
@@ -606,12 +542,12 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/assets/js/sdg.js?v=20230717123522'></script>
+<script src='/assets/js/sdg.js?v=20230808074423'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20230717123522"></script><script>
+    <script src="/assets/js/custom.js?v=20230808074423"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
@@ -619,3 +555,21 @@ interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.</p>
 
 </body>
 </html>
+</html>
+
+<!-- onclick expand tab for Handlungsfelder -->
+<script>
+    function openTab(evt, hf_id) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(hf_id).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+</script>
